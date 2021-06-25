@@ -1,6 +1,6 @@
 {
   "name": "@howiefh/ant-path-matcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ant Path Matcher",
   "main": "dist/ant-path-matcher.js",
   "private": false,

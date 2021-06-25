@@ -1,5 +1,3 @@
-// var AntPathMatcher = require('../dist/ant-path-matcher');
-// var AntPathMatcher = require('../src/index');
 import AntPathMatcher from "../src/index";
 
 var pathMatcher = null;
