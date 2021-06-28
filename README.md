@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/howiefh/ant-path-matcher/actions/workflows/node.js.yml/badge.svg)
+
 An implementation for Ant-style path patterns.
 
 Part of this mapping code has been kindly borrowed from [Apache Ant](https://ant.apache.org/) and [Spring Framework AntPathMatcher](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/AntPathMatcher.html).
