@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -13,4 +14,12 @@ module.exports = {
       export: 'default'
     }
   },
+  plugins: [ 
+    new CopyWebpackPlugin({
+      patterns: [{
+        from: path.join(__dirname, "./src/index.d.ts"),
+        to: path.join(__dirname, "./dist/ant-path-matcher.d.ts")
+      }]
+    })  
+  ]
 };
